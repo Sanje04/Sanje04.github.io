@@ -36,9 +36,10 @@ header {
 }
 
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    background: linear-gradient(var(--color-bg-variant), transparent);
     width: 22rem;
     height: 30rem;
+    border-color: red;
     justify-content: center;
     position: relative;
     left: calc(50% - 11rem);
