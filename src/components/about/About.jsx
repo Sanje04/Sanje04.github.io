@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css';
-import ME from '../../assets/me.png';
+import ME from '../../assets/sanje.jpg';
 import { FaAward, FaFolder } from 'react-icons/fa';
 import { HiUsers } from 'react-icons/hi';
 
@@ -13,35 +13,32 @@ const about = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="" />
+            <img src={ME} alt="About image" />
           </div>
         </div>
 
-        <div className="about__container">
+        <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <FaAward className='aboutIcon' />
+              <FaAward className='about__icon' />
               <h5>Experience</h5>
               <small>3+ Years Working</small>
             </article>
-          </div>
 
-          <div className="about__cards">
             <article className='about__card'>
-              <HiUsers className='aboutIcon' />
+              <HiUsers className='about__icon' />
               <h5>Clients</h5>
               <small>200+ Worldwide</small>
             </article>
-          </div>
 
-          <div className="about__cards">
             <article className='about__card'>
-              <FaFolder className='aboutIcon' />
+              <FaFolder className='about__icon' />
               <h5>Projects</h5>
               <small>80+</small>
             </article>
           </div>
 
+            
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
