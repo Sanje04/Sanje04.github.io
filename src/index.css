@@ -39,7 +39,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/3px-tile.png);
+    background-image: url(../src/assets/bg-texture.png);
 }
 
 .container {
@@ -61,7 +61,6 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
 }
 
 section > h2, section > h5 {
