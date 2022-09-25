@@ -1,6 +1,6 @@
 import React from 'react'
 import './services.css'
-import {GoCheck} from 'react-icon/bi';
+import {GoCheck} from 'react-icons/go';
 
 const Services = () => {
   return (
@@ -41,7 +41,6 @@ const Services = () => {
             </li>
           </ul>
         </article>
-        //web Development
         <article className='service'>
           <div className="service__head">
             <h3>Web Development</h3>
@@ -75,7 +74,6 @@ const Services = () => {
           </ul>
         </article>
 
-        //
         <article className='service'>
           <div className="service__head">
             <h3>Content Creation</h3>
