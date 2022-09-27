@@ -12,7 +12,7 @@ const HeaderSocials = () => {
           LinkedIn <BsLinkedin size={30}/>
         </>
       ),
-      href: 'www.linkedin.com/in/sanjedivakaran',
+      href: 'https://linkedin.com/in/sanjedivakaran',
       style: 'rounded-tr-md'
     },
     {
