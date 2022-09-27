@@ -5,7 +5,7 @@ import AVTR2 from '../../assets/ahead.jpg';
 import AVTR3 from '../../assets/bitbakery.webp';
 
 // import Swiper core and required modules
-import { Pagination, Scrollbar, Navigation } from 'swiper';
+import { Pagination, Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
