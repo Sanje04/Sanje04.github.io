@@ -12,7 +12,7 @@ const HeaderSocials = () => {
           LinkedIn <BsLinkedin size={30}/>
         </>
       ),
-      href: 'https://linkedin.com',
+      href: 'www.linkedin.com/in/sanjedivakaran',
       style: 'rounded-tr-md'
     },
     {
@@ -22,7 +22,7 @@ const HeaderSocials = () => {
           Github <BsGithub size={30}/>
         </>
       ),
-      href: 'https://github.com',
+      href: 'https://github.com/Sanje04',
       },
     {
       id: 3,
@@ -31,7 +31,7 @@ const HeaderSocials = () => {
           E-Mail <HiOutlineMail size={30}/>
         </>
       ),
-      href: 'mailto:foo@gmail.com',
+      href: 'mailto:sanje.divakaran@gmail.com',
     },
     {
       id: 4,
