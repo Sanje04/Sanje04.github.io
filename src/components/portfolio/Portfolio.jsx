@@ -1,49 +1,70 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/newportfolio.png'
+import IMG2 from '../../assets/youtubeplayer.png'
+import IMG3 from '../../assets/imagesearch.jpg'
+import IMG4 from '../../assets/geesesweeper.jpg'
+import IMG5 from '../../assets/incometax.jpg'
+import IMG6 from '../../assets/typeracer.png'
+import IMG7 from '../../assets/trivia.png'
+import IMG8 from '../../assets/shop.jpg'
+import IMG9 from '../../assets/oldportfolio.png'
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: 'test 1',
-    github: 'https://github.com'
+    title: "Portfolio",
+    img: IMG1,
+    link: "https://github.com/Sanje04/react-portfolio-new-website"
   },
   {
     id: 2,
-    image: IMG2,
-    title: 'test 2',
-    github: 'https://github.com'
+    title: "YouTube Player",
+    img: IMG2,
+    link: "https://github.com/Sanje04/VideosReactApp"
   },
   {
     id: 3,
-    image: IMG3,
-    title: 'test 3',
-    github: 'https://github.com'
+    title: "Image Search",
+    img: IMG3,
+    link: "https://github.com/Sanje04/PictureReactApp"
   },
   {
     id: 4,
-    image: IMG4,
-    title: 'test 4',
-    github: 'https://github.com'
+    title: "Geese Sweeper",
+    img: IMG4,
+    link: "https://github.com/Sanje04/Geese-Spotter"
   },
   {
     id: 5,
-    image: IMG5,
-    title: 'test 5',
-    github: 'https://github.com'
+    title: "Income Tax Tool",
+    img: IMG5,
+    link: "https://github.com/Sanje04/Income-Tax-Tool"
   },
   {
     id: 6,
-    image: IMG6,
-    title: 'test 6',
-    github: 'https://github.com'
+    title: "Type Racer",
+    img: IMG6,
+    link: "https://github.com/Sanje04/Java-Type-Racing-Game"
   },
+  {
+    id: 7,
+    title: "Trivia",
+    img: IMG7,
+    link: "https://github.com/Sanje04/TriviaGame"
+  },
+  {
+    id: 8,
+    title: "Online Shop",
+    img: IMG8,
+    link: "https://github.com/Sanje04/Online-Store"
+  },
+  {
+    id: 9,
+    title: "Old Portfolio",
+    img: IMG9,
+    link: "https://github.com/Sanje04/SanjePortfolio"
+},
 ]
 
 const Portfolio = () => {
@@ -51,15 +72,14 @@ const Portfolio = () => {
     <section id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-      
 
       <div className="container portfolio__container">
        {
-        data.map(({id, image, title, github}) => {
+        data.map(({id, img, title, github}) => {
           return (
             <article key={id} className='portfolio__item'>
             <div className="portfolio__item-image">
-              <img src={image} alt={title} />
+              <img src={img} alt={title}/>
               <h3>{title}</h3>
               <div className='portfolio__item-cta'>
                 <a href={github} className='btn'>Github</a>

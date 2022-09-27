@@ -4,105 +4,105 @@ import {GoCheck} from 'react-icons/go';
 
 const Services = () => {
   return (
-    <section id='services'>
+    <section id='skills'>
       <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h2>Skills</h2>
 
       <div className='container services__container'>
         <article className='service'>
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Technical Skills</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Frontend Development</p>
             </li>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Backend Development</p>
             </li>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Database Management</p>
             </li>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Web Deployment</p>
             </li>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Unit Testing</p>
             </li>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Git Bash</p>
             </li>
           </ul>
         </article>
         <article className='service'>
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Development Tools</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Visual Studio Code</p>
             </li>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Robo 3T</p>
             </li>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Postman</p>
             </li>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Elastic Search</p>
             </li>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Jenkins</p>
             </li>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Unix</p>
             </li>
           </ul>
         </article>
 
         <article className='service'>
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Soft Skills</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Communication </p>
             </li>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Adaptability </p>
             </li>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Humility </p>
             </li>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Willingness To Ask Questions </p>
             </li>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Self-Awareness </p>
             </li>
             <li>
               <GoCheck className="service__list-icon" />
-              <p>Lorem ipsumasda sda sdasdnkjnasd a sjkdnakjsdnask dkjasndk</p>
+              <p>Resilience </p>
             </li>
           </ul>
         </article>

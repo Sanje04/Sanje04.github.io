@@ -1,8 +1,8 @@
 import React from 'react'
 import './testimonials.css';
-import AVTR1 from '../../assets/avatar1.jpg';
-import AVTR2 from '../../assets/avatar2.jpg';
-import AVTR3 from '../../assets/avatar3.jpg';
+import AVTR1 from '../../assets/adp.png';
+import AVTR2 from '../../assets/ahead.jpg';
+import AVTR3 from '../../assets/bitbakery.webp';
 
 // import Swiper core and required modules
 import { Pagination, Scrollbar, Navigation } from 'swiper';
@@ -17,31 +17,32 @@ const data = [
   {
     avatar: AVTR1,
     name: 'ADP',
-    review: 'lorem impsum asmd amsd damd adsm adsjd dasjadsj'
+    review: 'Sanje has shown a great desire to learn, improve his technical knowledge and contribute to the project and team deliverables.'
   },
   {
     avatar: AVTR2,
     name: 'AHead Simulations',
-    review: 'lorem impsum asmd amsd damd adsm adsjd dasjadsj'
+    review: 'Sanje showed technical merit during his co-op term. He was able to complete changes to our software UI. As well he demonstrated that he was able to work with more senior software engineers effectively.'
   },
   {
     avatar: AVTR3,
     name: 'Bit Bakery Software',
-    review: 'lorem impsum asmd amsd damd adsm adsjd dasjadsj'
+    review: 'Sanje showed positive improvement in the areas of problem solving, implementation, and communication. His contributions to the project have helped us move things forward and get things done.'
   },
 ]
 
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review From Clients</h5>
+      <h5>Review From Employers</h5>
       <h2>Testimonials</h2>
 
       <Swiper className="container testimonials__container"
         // install Swiper modules
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
         spaceBetween={40}
         slidesPerView={1}
+        navigation
         pagination={{ clickable: true }}
 
       >

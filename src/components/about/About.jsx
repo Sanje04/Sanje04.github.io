@@ -22,28 +22,27 @@ const about = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>3 Terms of Work Experience</small>
             </article>
 
             <article className='about__card'>
               <HiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>University of Waterloo</h5>
+              <small>Computer Engineering</small>
             </article>
 
             <article className='about__card'>
               <FaFolder className='about__icon' />
               <h5>Projects</h5>
-              <small>80+</small>
+              <small>10+ Completed</small>
             </article>
           </div>
 
             
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            Currently growing my skills in programming in any sort of ways, with goals of becoming a Devops Solution Architect.
+            I'm a problem solver and a strong communicator eager to prove my value for any company that gives me a chance.
+            Motivated to advance and expand my skills set through targeted mentorship and challenging projects.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
