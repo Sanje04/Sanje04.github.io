@@ -40,7 +40,7 @@ const HeaderSocials = () => {
           Resume <BsFillPersonLinesFill size={30}/>
         </>
       ),
-      href: '../../SanjeResumePDFNew.pdf',
+      href: "resume.pdf",
       style: 'rounded-br-md',
       download: true
     },
